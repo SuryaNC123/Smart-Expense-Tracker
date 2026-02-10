@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Expense Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="header">
+  <h1>💰 Smart Expense Tracker</h1>
+
+  <div class="header-actions">
+    <input type="number" id="incomeInput" placeholder="Income" />
+    <select id="currency">
+      <option value="USD">USD</option>
+      <option value="INR">INR</option>
+      <option value="EUR">EUR</option>
+    </select>
+    <button id="darkToggle">🌙</button>
+  </div>
+</header>
+
+<!-- Dashboard -->
+<section class="dashboard">
+  <div class="card">
+    <h3>Total Income</h3>
+    <p id="income">0</p>
+  </div>
+  <div class="card">
+    <h3>Total Expenses</h3>
+    <p id="expenses">0</p>
+  </div>
+  <div class="card">
+    <h3>Balance</h3>
+    <p id="balance">0</p>
+  </div>
+</section>
+
+<!-- Expense Form -->
+<section class="form-section">
+  <form id="expenseForm">
+    <input type="number" id="amount" placeholder="Amount" required />
+    <select id="category">
+      <option>Food</option>
+      <option>Travel</option>
+      <option>Rent</option>
+      <option>Shopping</option>
+      <option>Bills</option>
+      <option>Others</option>
+    </select>
+    <input type="text" id="description" placeholder="Description" required />
+    <input type="date" id="date" required />
+    <button type="submit">Add Expense</button>
+  </form>
+</section>
+
+<!-- Filter Button -->
+<div class="filter-bar">
+  <button id="filterToggle">🔍 Filter</button>
+</div>
+
+<!-- Filter Panel -->
+<section class="filter-panel" id="filterPanel">
+  <select id="filterCategory">
+    <option value="">Filter by Category</option>
+    <option>Food</option>
+    <option>Travel</option>
+    <option>Rent</option>
+    <option>Shopping</option>
+    <option>Bills</option>
+    <option>Others</option>
+  </select>
+
+  <input type="date" id="filterDate" />
+  <input type="text" id="filterDescription" placeholder="Search description" />
+
+  <button id="last30Btn">Last 30 Days</button>
+  <button id="clearFilter">Clear</button>
+</section>
+
+<!-- Expense Table -->
+<section class="table-section">
+  <table>
+    <thead>
+      <tr>
+        <th>Amount</th>
+        <th>Category</th>
+        <th>Description</th>
+        <th>Date</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="expenseTable"></tbody>
+  </table>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
