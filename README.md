@@ -6,7 +6,10 @@ Track your daily expenses, manage income, analyze spending, and visualize financ
 
 ---
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20App-6366f1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://suryanc123.github.io/Smart-Expense-Tracker/)
+## 🔗 Live Demo
+
+[![LIVE](https://img.shields.io/badge/LIVE-333333?style=for-the-badge)](https://suryanc123.github.io/Smart-Expense-Tracker/)
+[![DEMO](https://img.shields.io/badge/DEMO-84cc16?style=for-the-badge)](https://suryanc123.github.io/Smart-Expense-Tracker/)
 
 
 ---
