@@ -6,8 +6,7 @@ Track your daily expenses, manage income, analyze spending, and visualize financ
 
 ---
 
-## 🚀 Live Demo
-👉 (Add Vercel link here after deployment)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20App-6366f1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://suryanc123.github.io/Smart-Expense-Tracker/)
 
 
 ---
